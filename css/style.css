@@ -1,0 +1,412 @@
+* {
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+:root {
+    --main-color: #036bc7;
+    --secondary-color: #fcd93b;
+    --terzo-color: #dd5138;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.button {
+    
+    background-color: var(--terzo-color);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.button-send {
+    display: flex;
+    background-color: var(--secondary-color);
+    color: rgb(42, 41, 40);
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-left: auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.logo {
+    width: 9rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.main-menu {
+    display: none;
+}
+
+#main-header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    margin-bottom: 1px;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#hero {
+    display: flex;
+    margin-bottom: 5rem;
+    background-color: var(--main-color);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hero-img {
+    display: none;
+}
+
+.hero-text {
+    width: 100%;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 3rem;
+}
+.hero i {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+#about {
+    display: flex;
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-item {
+    width: 100%;
+}
+.about-text i {
+    font-size: 1.5rem;
+}
+.about-titulo i {
+    font-size: 2rem;
+
+}
+
+.about-img {
+    font-size: 10rem;
+    color: var(--main-color);
+}
+
+#speaker {
+    display: flex;
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.speaker-item {
+    padding: 2rem;
+    margin: 1px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+#buy {
+    background-color: var(--secondary-color);
+}
+
+.buy-text {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.buy-text h2 {
+    font-size: 1.5remrem;
+}
+.buy-text i {
+    font-size: 4rem;
+    color: var(--terzo-color);
+
+}
+
+.buy-text p {
+    font-size: 1rem;
+}
+
+.buy-tickets {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#contact {
+    background-color: rgb(42, 41, 40);
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+
+.contact-wrapper {
+    display: block;
+    text-align: center;
+    padding: auto;
+    font-size: 2rem;
+    margin: 0 auto;
+    
+}
+.contact-text a {
+    color: white;
+}
+
+
+
+
+.textarea {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.textarea textarea{
+    
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 1px white;
+    border-radius: 5px;
+    
+}
+.textarea p {
+    display: flex;
+    margin-top: 1px;
+}
+
+em {
+    color: var(--main-color);
+}
+.message {
+    height: 10rem;
+
+}
+.texto {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.texto a {
+    display: f;
+    color: white;
+    margin-bottom: 2rem;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.texto p {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+#main-footer {
+
+    padding: 3rem;
+    background-color: rgb(17, 18, 18);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.footer-credits {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    color: var(--secondary-color);
+
+    
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px  solid white;
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 80%;
+    }
+    .main-menu {
+        display: flex;
+    }
+
+    .main-menu ul { 
+        
+        margin: 1rem;
+        padding: 1rem;
+        
+        display: flex;
+        list-style-type: none;
+    
+        column-gap: 3rem;
+        font-size: 1.5rem;
+    }
+    
+    .main-menu a { 
+        color: var(--secondary-color)
+        
+
+    }
+    #hero {
+        display: flex;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .hero {
+        display: flex;
+        width: 50%;
+        align-items: flex-start;
+        flex-direction: column;
+    
+    }
+    .hero-img {
+        display: flex;
+    }
+    .hero-text {
+        text-align: left;
+    }
+    .about-titulo {
+        align-items: center;
+    }
+    #about-item {
+        display: flex;
+        padding: 4rem;
+    }
+
+    .speaker-titulo {
+        align-items: center;
+    }
+    
+    #speaker-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .speaker-item {
+        width: 30%;
+        padding: 1rem;
+        margin-bottom: 0;
+        margin: 1rem;
+    }
+    .buy-tickets {
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .buy-wrapper {
+        display: flex;
+        padding-bottom: 2rem;
+    }
+
+    .contact-wrapper {
+        display: flex;
+
+    }
+    .texto {
+        width: 50%;
+    }
+
+    .contact-text {
+        width: 50%;
+    }
+
+    .texto p {
+        padding-top: 2rem;
+        font-size: 1.3rem;
+        
+        width: 80%;
+    
+    }
+
+    .footer-wrapper {
+        display: flex;
+        padding: auto;
+    
+    }
+    .footer-info {
+        
+        font-size: 1.5rem;
+        text-align: left;
+
+    }
+    .footer-credits {
+        
+        font-size: 1rem;
+        margin-left: 0;
+        gap: 2rem;
+        display: flex;
+        margin-left: auto;
+
+    }
+
+
+}
